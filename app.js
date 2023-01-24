@@ -31,7 +31,7 @@ app.use(cors());
 app.use("/api", authRoutes);
 app.use("/api", urlRoutes);
 
-const port = process.env.PORT || 1000;
+const port = process.env.PORT || 4300;
 app.listen(port, () => {
   console.log(`listening on port ${port}`);
 });
